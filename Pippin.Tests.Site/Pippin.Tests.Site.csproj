@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Pippin.Adapters.Unosquare\Pippin.Adapters.Unosquare.csproj" />
+    <ProjectReference Include="..\Pippin.Core\Pippin.Core.csproj" />
+    <ProjectReference Include="..\Pippin.Extensions.Microsoft.DependencyInjection\Pippin.Extensions.Microsoft.DependencyInjection.csproj" />
+  </ItemGroup>
+
+
+</Project>

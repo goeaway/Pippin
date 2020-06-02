@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30114.105
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Pippin.Core", "Pippin.Core\Pippin.Core.csproj", "{5015EB12-806F-470C-9D86-528CAA016559}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Pippin.Extensions.Microsoft.DependencyInjection", "Pippin.Extensions.Microsoft.DependencyInjection\Pippin.Extensions.Microsoft.DependencyInjection.csproj", "{F34EFE0C-098C-4BDF-959D-B6D43A465733}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Pippin.Adapters.Unosquare", "Pippin.Adapters.Unosquare\Pippin.Adapters.Unosquare.csproj", "{DAFBC9A8-BC96-496C-8D1F-963489F4B925}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Pippin.Adapters.Http", "Pippin.Adapters.Http\Pippin.Adapters.Http.csproj", "{A4453883-1667-4F7B-8CA9-AA1C9CF2365B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Pippin.Tests", "Pippin.Tests\Pippin.Tests.csproj", "{7B1CB0BA-FC31-4AB8-B9AF-1DC01907B1DF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Adapters", "Adapters", "{8DA48A80-E4CD-4333-9E62-FB67B966DBC4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Pippin.Tests.Site", "Pippin.Tests.Site\Pippin.Tests.Site.csproj", "{17E3A09A-D416-470E-A5DF-D8970E20AB3A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5015EB12-806F-470C-9D86-528CAA016559}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5015EB12-806F-470C-9D86-528CAA016559}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5015EB12-806F-470C-9D86-528CAA016559}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5015EB12-806F-470C-9D86-528CAA016559}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F34EFE0C-098C-4BDF-959D-B6D43A465733}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F34EFE0C-098C-4BDF-959D-B6D43A465733}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F34EFE0C-098C-4BDF-959D-B6D43A465733}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F34EFE0C-098C-4BDF-959D-B6D43A465733}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DAFBC9A8-BC96-496C-8D1F-963489F4B925}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DAFBC9A8-BC96-496C-8D1F-963489F4B925}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DAFBC9A8-BC96-496C-8D1F-963489F4B925}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DAFBC9A8-BC96-496C-8D1F-963489F4B925}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A4453883-1667-4F7B-8CA9-AA1C9CF2365B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A4453883-1667-4F7B-8CA9-AA1C9CF2365B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A4453883-1667-4F7B-8CA9-AA1C9CF2365B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A4453883-1667-4F7B-8CA9-AA1C9CF2365B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7B1CB0BA-FC31-4AB8-B9AF-1DC01907B1DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B1CB0BA-FC31-4AB8-B9AF-1DC01907B1DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B1CB0BA-FC31-4AB8-B9AF-1DC01907B1DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B1CB0BA-FC31-4AB8-B9AF-1DC01907B1DF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{17E3A09A-D416-470E-A5DF-D8970E20AB3A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17E3A09A-D416-470E-A5DF-D8970E20AB3A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17E3A09A-D416-470E-A5DF-D8970E20AB3A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17E3A09A-D416-470E-A5DF-D8970E20AB3A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{DAFBC9A8-BC96-496C-8D1F-963489F4B925} = {8DA48A80-E4CD-4333-9E62-FB67B966DBC4}
+		{A4453883-1667-4F7B-8CA9-AA1C9CF2365B} = {8DA48A80-E4CD-4333-9E62-FB67B966DBC4}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1D5E4BF3-8F96-4112-B479-43CA03CCD335}
+	EndGlobalSection
+EndGlobal
